@@ -1,5 +1,13 @@
 # svelte
 
+## 4.0.0-next.3
+
+### Patch Changes
+
+- feat: smaller minified output for destructor chunks ([#8763](https://github.com/sveltejs/svelte/pull/8763))
+
+- breaking: use `CustomEvent` constructor instead of deprecated `createEvent` method ([#8775](https://github.com/sveltejs/svelte/pull/8775))
+
 ## 4.0.0-next.2
 
 ### Patch Changes
@@ -69,7 +77,7 @@
 
 ## 3.59.2
 
-* Fix escaping `<textarea bind:value={...}>` values in SSR
+- Fix escaping `<textarea bind:value={...}>` values in SSR
 
 ## 3.59.1
 
